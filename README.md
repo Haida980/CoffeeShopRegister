@@ -42,6 +42,7 @@ The program starts and you can use the Coffee Shop Register.
 # Contributing
 
 Pull requests are welcome. For big changes, open an issue first. Discuss what you'd like to change.
-License
+
+# License
 
 MIT (https://choosealicense.com/licenses/mit/)
