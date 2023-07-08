@@ -1,7 +1,8 @@
 # CoffeeShopRegister
+Coffee Shop Register Application
 
 This Java application is a virtual coffee shop register. It simulates the processes of ordering in a coffee shop. The application's features include order taking, cost calculation, and more.
-Files
+# Files
 
 The application consists of five main Java files:
 
@@ -14,7 +15,33 @@ The application consists of five main Java files:
     order.java: This file has the Order class. It's used to create and manage orders. It adds items, calculates total price, and finalizes the order.
 
     OrderItem.java: This file is the OrderItem class. It holds the ordered items and their quantities.
-  # CoffeeShopRegister
-  Contributing
+
+# Installation
+
+Check if Java is installed on your machine. Use the following command:
+
+bash
+
+java -version
+
+If Java is not installed, refer to the official Java installation guide. (https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+# Usage
+
+Clone the repository to your local machine. Go to the directory with the files. Compile the Java files using this command:
+
+
+javac app.java coffee.java menuItem.java order.java OrderItem.java
+
+Then, run the application with:
+
+java app
+
+The program starts and you can use the Coffee Shop Register.
+
+# Contributing
 
 Pull requests are welcome. For big changes, open an issue first. Discuss what you'd like to change.
+License
+
+MIT (https://choosealicense.com/licenses/mit/)
